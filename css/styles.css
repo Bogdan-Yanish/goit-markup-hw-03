@@ -1,0 +1,240 @@
+:root {
+  --primary-text-color:#757575; /*основний колір*/
+  --accent-color:#2196F3; /*колір hover, focus, button*/
+  --title-text-color:#212121; /*колір заголовків*/
+  --white-color:#FFFFFF;
+  --baner-color:#2F303A;
+  --button-color:#F5F4FA;
+    }
+li {
+      list-style-type: none;
+/*Видалено маркери списку*/
+    }
+ 
+    body {
+      color: var(--primary-text-color);
+
+      font-family: 'Roboto', sans-serif;
+    }
+   
+    /*Logo*/
+
+    .header {
+      background-color: var(--white-color);
+    }
+
+    .logo {
+      color: var(--accent-color);
+
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;           
+      letter-spacing: 0.03em;
+
+      text-decoration: none;
+      }
+    
+    .logo-header {
+      color: var(--title-text-color);
+    }
+
+    .accent-footer {
+      color: var(--white-color);
+    }
+
+    /*Header*/
+    .site-nav .link {
+      color:var(--title-text-color);           
+        
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+
+      text-decoration: none;
+    }
+
+    .site-nav .link:hover {
+      color:var(--accent-color);
+    }
+
+    .site-nav .link:focus {
+      color: var(--accent-color);
+    }
+
+    .site-nav .link.current {
+      color: var(--accent-color);
+   }
+
+    .auth-link .contact {
+      color: var(--primary-text-color);
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+
+      text-decoration: none;    
+    }
+
+    .auth-link .contact:hover {
+      color: var(--accent-color);
+    }
+
+    .auth-link .contact:focus {
+      color: var(--accent-color);
+    }
+
+    /*Footer*/
+    .footer {
+      background-color: var(--baner-color);
+    }
+
+    .address {
+      color: var(--white-color);
+      
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;      
+    }
+
+    /*Main Studio*/
+    /*Hero*/
+    .hero {
+      background-color: var(--baner-color);
+    }
+
+    .hero-title {
+      color: var(--white-color);
+
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;             
+      text-align: center;
+      letter-spacing: 0.06em;
+
+      text-transform: uppercase;     
+    }
+
+    .hero-btn {
+      background-color: var(--accent-color);
+      color: var(--white-color);
+
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.06em;
+
+      cursor: pointer;              
+    }
+    
+    /*Benefits*/
+    .benefits-title {
+      color: var(--title-text-color);
+
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+
+      text-transform: uppercase;      
+    }
+
+    .benefits-text {
+      font-size: 14px;
+      line-height: 1.71;      
+      letter-spacing: 0.03em;      
+    }
+
+    /*Works*/
+    .work-title {
+      color: var(--title-text-color);
+        
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;    
+    }
+
+    /*Team*/
+
+    .team {
+      background-color: var(--button-color);
+    }
+
+    .team-title {
+      color: var(--title-text-color);
+
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;      
+    }
+
+    .team-name {
+      color: var(--title-text-color);
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;             
+      letter-spacing: 0.03em;      
+       
+    }
+
+    .team-position {
+      font-size: 16px;
+      line-height: 1.19;     
+      letter-spacing: 0.03em;     
+    }
+
+
+    /*Portfolio*/
+
+    .option-btn {
+      background-color: var(--button-color);
+      color: var(--title-text-color);
+      
+      font-family: inherit;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.62;          
+      letter-spacing: 0.03em;
+
+      cursor: pointer;     
+    }
+
+    .option-btn:hover {
+      background-color: var(--accent-color);
+      color: var(--white-color);
+    }
+
+    .portfolio-link {
+      text-decoration: none;
+    }
+
+    .portfolio-title {
+      color: var(--title-text-color);
+
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 2;          
+      letter-spacing: 0.06em;      
+    }
+    
+    .portfolio-text {     
+      color: var(--primary-text-color);
+
+      font-size: 16px;
+      line-height: 1.88;     
+      letter-spacing: 0.03em;      
+    }
+
+    
+    
+
+
