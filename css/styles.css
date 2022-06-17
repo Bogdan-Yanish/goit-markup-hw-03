@@ -34,7 +34,7 @@
       padding-left: 15px;
       padding-right: 15px;
 
-      outline: 2px solid red;    
+      /* outline: 2px solid red;     */
     }
 
     h1,
@@ -46,6 +46,7 @@
     ul {
       margin-top: 0;
       margin-bottom: 0;
+      padding: 0;
     }
 
     .section {
@@ -64,10 +65,11 @@
     .main-nav {
       display: flex;
       align-items: center;
-      /* justify-content: space-between; */
     }
 
     .logo {
+      width: 145px;  
+
       color: var(--accent-color);
 
       font-family: 'Raleway';
@@ -76,8 +78,8 @@
       line-height: 1.19;           
       letter-spacing: 0.03em;
       text-decoration: none;
-      }
-    
+      }    
+      
     .logo-header {
       color: var(--title-text-color);
     }
@@ -128,6 +130,11 @@
       display: flex;
       padding: 0;
       margin-left: auto;
+    }
+
+    .auth-nav .item {
+      padding-top: 32px;
+      padding-bottom: 32px;
     }
 
     .auth-nav .contact {
@@ -214,7 +221,6 @@
       line-height: 1.36;             
       text-align: center;
       letter-spacing: 0.06em;
-
       text-transform: uppercase; 
     }
 
@@ -242,15 +248,14 @@
     }
     
     /*Benefits*/
-    .benefits {
-      background-color: yellow;
-    }
+    /* .benefits { */
+      /* background-color: yellow; */
+    /* } */
 
     .benefits-list {
       display: flex;
       flex-wrap: wrap;
       padding: 0;
-      margin-left: auto;
     }
 
     .benefits-item {
@@ -264,7 +269,7 @@
 
     /* .benefits-item:not(:last-child) { */
       /* margin-right: 30; */
-    }
+    /* } */
 
     .benefits-title {
       display: block;
@@ -276,7 +281,6 @@
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.03em;
-
       text-transform: uppercase;      
     }
 
@@ -289,9 +293,9 @@
     }
 
     /*Works*/
-    .work {
-      background-color: goldenrod;
-    }
+    /* .work { */
+      /* background-color: goldenrod; */
+    /* } */
 
     .work-title {
       margin-bottom: 50px;
@@ -377,9 +381,9 @@
 
     /*Portfolio*/
 
-    .option {
-      background-color: aqua;
-    }
+    /* .option { */
+      /* background-color: aqua; */
+    /* } */
 
     .option-list {
       display: flex;
@@ -424,26 +428,30 @@
     .portfolio {
       display: flex;
       flex-wrap: wrap;
-      padding: 0;
-      gap: 30px;
+      margin-left: -30px;
+      margin-top: -30px;
     }
+      
+    /* margin: -15px; */       
+    /* }    */
 
     .portfolio-item {
-      /* width: 370px; */
+      flex-basis: calc(100% / 3 - 60px);
+      margin-left: 30px;
+      margin-top: 30px;
       border-bottom: 1px solid #EEEEEE;
-      flex-basis: calc((100%-60)/3);
     }
+
+    /* .portfolio-item:nth-child(3n) { */
+      /* margin-right: 0; */
+    /* } */
 
     .portfolio-link {
       text-decoration: none;
     }
 
-        /* .portfolio-item:nth-last-child(n+3) { */
-      /* margin-right: 30px; */
-    }
-
     .portfolio-img {
-      margin-bottom: 20px;
+      margin-bottom: 20px;    
     }
 
     .portfolio-title {
