@@ -22,7 +22,7 @@
   <body>
     <header class="header">
       <!--Навігація сайту-->
-      <div class="container">
+      <div class="container header-container">
         <nav class="main-nav">
           <a href="./index.html" class="logo"> Web<span class="logo-header">Studio</span> </a>
           <ul class="site-nav">
@@ -30,14 +30,14 @@
             <li class="item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
             <li class="item"><a class="link" href="">Контакти</a></li>
           </ul>
-
-          <ul class="auth-nav">
-            <li class="item">
-              <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="item"><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-          </ul>
         </nav>
+
+        <ul class="auth-nav">
+          <li class="item">
+            <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item"><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
       </div>
     </header>
 
@@ -58,23 +58,23 @@
         <div class="container">
           <ul class="benefits-list">
             <li class="benefits-item">
-              <h3 class="benefits-title">Увага до деталей</h3>
+              <h3 class="benefits-subtitle">Увага до деталей</h3>
               <p class="benefits-text">
                 Ідейні міркування, а також початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="benefits-item">
-              <h3 class="benefits-title">Пунктуальність</h3>
+              <h3 class="benefits-subtitle">Пунктуальність</h3>
               <p class="benefits-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="benefits-item">
-              <h3 class="benefits-title">Планування</h3>
+              <h3 class="benefits-subtitle">Планування</h3>
               <p class="benefits-text">Так само консультація з широким активом значно обумовлює.</p>
             </li>
             <li class="benefits-item">
-              <h3 class="benefits-title">Сучасні технології</h3>
+              <h3 class="benefits-subtitle">Сучасні технології</h3>
               <p class="benefits-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
@@ -120,8 +120,10 @@
                 alt="Фото Ігора Демяненка"
                 width="270"
               />
-              <h3 class="team-name">Ігор Демяненко</h3>
-              <p class="team-position">Product Designer</p>
+              <div class="team-wrap">
+                <h3 class="team-name">Ігор Демяненко</h3>
+                <p class="team-position">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -130,8 +132,10 @@
                 alt="Фото Ольги Репіної"
                 width="270"
               />
-              <h3 class="team-name">Ольга Репіна</h3>
-              <p class="team-position">Frontend Developer</p>
+              <div class="team-wrap">
+                <h3 class="team-name">Ольга Репіна</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -140,8 +144,10 @@
                 alt="Фото Миколи Тарасова"
                 width="270"
               />
-              <h3 class="team-name">Микола Тарасов</h3>
-              <p class="team-position">Marketing</p>
+              <div class="team-wrap">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-position">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -150,8 +156,10 @@
                 alt="Фото Михайла Єрмакова"
                 width="270"
               />
-              <h3 class="team-name">Михайло Єрмаков</h3>
-              <p class="team-position">UI Designer</p>
+              <div class="team-wrap">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p class="team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
