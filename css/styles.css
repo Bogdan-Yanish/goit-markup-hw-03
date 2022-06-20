@@ -257,8 +257,7 @@ ul {
 
 .benefits-list {
   display: flex;
-  flex-wrap: wrap;
-  padding: 0;
+  flex-wrap: wrap;  
 }
 
 .benefits-item {
